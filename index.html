@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Layout</title>
+    </head>
+    <body>
+        <form>
+            <table width="70%" border="1px" cellspacing="0" cellpadding="10" align="center" bgcolor="gray">
+                <tr>
+                    <td align="center" colspan="3">
+                        <h1><mark>Registration for SEIP Project</mark></h1>
+                        <h4>Select Course:(In SEIP project one person will be eligible for one course only)</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Preference*:</label>
+                        <select>
+                            <option>Select a course</option>
+                            <option>2d and 3d Animation</option>
+                            <option>Web Design</option>
+                            <option>Web Development</option>
+                            <option>Digital Marketing</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="firstname">First Name*:</label>
+			            <input type="text" id="firstname" required>
+                    </td>
+                    <td>
+                        <label for="lastname">Last Name*:</label>
+			            <input type="text" id="lastname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="father'sname">Father's Name*:</label>
+                        <input type="text" id="father'sname">
+                    </td>
+                    <td>
+                        <label for="mother'sname">Mother's Name*:</label>
+                        <input type="text" id="mother'sname">
+                    </td>
+                    <td>
+                        <p>Gender*:</p>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="others">
+                        <label for="others">Others</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>National ID:</label>
+                        <input type="number">
+                    </td>
+                    <td>
+                        <label>Mobile:*</label>
+                        <input type="number">
+                    </td>
+                    <td>
+                        <label>E-mail:*</label>
+                        <input type="email" size="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth:</label>
+                        <input type="date" min="1905-01-01" max="2022-12-31">
+                    </td>
+                    <td>
+                        <label>Religion:</label>
+                        <select>
+                            <option>Islam</option>
+                            <option>Hinduism</option>
+                            <option>Buddhism</option>
+                            <option>Christianity</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label>Ethnic Group:</label>
+                        <select>
+                            <option>Bangali</option>
+                            <option>Chakma</option>
+                            <option>Marma</option>
+                            <option>Murong</option>
+                            <option>Saotali</option>
+                            <option>Mog</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label for="">Present Address</label><br>
+                        <textarea name="" id="" cols="120" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label for="">Permanent Address</label><br>
+                        <textarea name="" id="" cols="120" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h3>Highest Academic Achievement</h3>
+                        <label for="">Level of Education:</label><br>
+                        <input type="text" name="" id="">
+                        <label for="">Institute:</label>
+                        <input type="text" name="" id="">
+                        <label for="">Subject:</label>
+                        <input type="text" name="" id="">
+                        <label for="">Year:</label>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label for="">Photo</label>
+                        <input type="file" name="" id="">
+                        <p>Image size should be 300x300 (Max 100KB) in JPG Format</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    <input type="Reset">
+                    </td>
+                    <td></td>
+                    <td  align="center">
+                        <input type="image" src="https://i.pinimg.com/originals/99/26/2c/99262c6f4dd68955d33526cd9af29576.gif" width="230px">">
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
